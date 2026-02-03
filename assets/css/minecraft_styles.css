@@ -1,0 +1,214 @@
+html {
+	
+	background-color: #e0e0e0;
+	
+	
+	/*
+	background-image: url('bg_main.png');
+	*/
+	
+	scroll-behavior: smooth;
+	scroll-padding-top: 65px;
+}
+
+.top-navigation-bar {
+	background-color: #333333;
+    display: flex;
+    justify-content: center;
+	
+	position: absolute; /* OPTIONAL: Change this from absolute to fixed to make navbar always visible when scrolling. */
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.top-navigation-bar a {
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.top-navigation-bar a:hover {
+	background-color: #e0e0e0;
+	color: #333333;
+}
+
+.minecraft-socials {
+	background-color: #aaaaaa;
+	text-align: center;
+	border-radius: 4px;
+	padding: 5px;
+	border: 7px solid black;
+}
+
+.minecraft-socials table,
+.minecraft-socials tr,
+.minecraft-socials td {
+	/*border: none !important;*/
+	text-align: left;
+	
+	/* Center table in the overarching div */
+	margin-left: auto;
+	margin-right: auto;
+	
+	/* Keeps cells from being too close to each other */
+	border-spacing: 10px;
+}
+
+.curseforge-logo {
+	width: auto;
+	height: 17px;
+}
+
+.curseforge-colors {
+	background-color: black;
+	
+	/* Exact shade of orange found on most of the buttons on CurseForge's main webpage: https://www.curseforge.com/ */
+	color: #f16436;
+	
+	font-weight: bold;
+	border-radius: 4px;
+	padding: 4px;
+	
+	/* Forces the logo to be aligned vertically */
+	display: inline-flex;
+	
+	gap: 2px;
+}
+
+.modrinth-logo {
+	width: auto;
+	height: 17px;
+}
+
+.modrinth-colors {
+	background-color: white;
+	
+	/* Exact shade of green found on the Modrinth logo on Modrinth's main webpage: https://modrinth.com/ */
+	color: #00af5c;
+	
+	font-weight: bold;
+	border-radius: 4px;
+	padding: 4px;
+	
+	/* Forces the logo to be aligned vertically */
+	display: inline-flex;
+	
+	gap: 2px;
+}
+
+.minecraft_forum-logo {
+	width: auto;
+	height: 17px;
+}
+
+.minecraft_forum-colors {
+	/* Exact shade of green (#63a121) found on the navigation bar on Minecraft Forum's main webpage: https://www.minecraftforum.net/ */
+	background: linear-gradient(to bottom, #63a121, brown);
+	
+	/*
+	Alternative experimental background that reflects the background of the actual Minecraft Forum's main webpage: https://www.minecraftforum.net/
+	*/
+	/* Exact shade of blue (#8fbfea) found on the top bar (the imagery of the sky and clouds) on Minecraft Forum's main webpage: https://www.minecraftforum.net/ */
+	/*
+	background: linear-gradient(to bottom, #8fbfea, #63a121, brown, black);
+	*/
+	
+	color: white;
+	
+	font-weight: bold;
+	border-radius: 4px;
+	padding: 4px;
+	
+	/* Forces the logo to be aligned vertically */
+	display: inline-flex;
+	
+	gap: 3px;
+}
+
+.planet_minecraft-logo {
+	width: auto;
+	height: 17px;
+}
+
+.planet_minecraft-background-color {
+	/* Exact color found on the background color of the navigation bar on Planet Minecraft's main webpage: https://www.planetminecraft.com/ */
+	background-color: #1d2839;
+	
+	font-weight: bold;
+	border-radius: 4px;
+	padding: 4px;
+	
+	/* Forces the logo to be aligned vertically */
+	display: inline-flex;
+	
+	gap: 3px;
+}
+
+.planet-color {
+	color: yellowgreen;
+}
+
+.mine-color {
+	color: peru;
+}
+
+.craft-color {
+	color: deepskyblue;
+}
+
+.information-section {
+	background-color: white;
+	border-radius: 4px;
+	padding: 10px;
+	border: 7px solid white;
+}
+
+.information-section table {
+  border-collapse: collapse;
+}
+
+.information-section td,
+.information-section th {
+  border: 2px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+.information-section tbody tr:hover {
+	background-color: #aaaaaa;
+}
+
+.information-section thead,
+.information-section tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.minecraft-navigation-bar {
+	background-color: #333333;
+    display: flex;
+    justify-content: center;
+	
+	/* Allows this nav bar to move with the user only if they scroll down far enough at minumum and will always stay at the top of the screen until the user scrolls back up far enough at minimum. */
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.minecraft-navigation-bar a {
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.minecraft-navigation-bar a:hover {
+	background-color: #e0e0e0;
+	color: #333333;
+}

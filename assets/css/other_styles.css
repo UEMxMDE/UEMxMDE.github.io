@@ -1,0 +1,42 @@
+html {
+	
+	background-color: #e0e0e0;
+	
+	
+	/*
+	background-image: url('bg_main.png');
+	*/
+}
+
+.top-navigation-bar {
+	background-color: #333333;
+    display: flex;
+    justify-content: center;
+	
+	position: absolute; /* OPTIONAL: Change this from absolute to fixed to make navbar always visible when scrolling. */
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.top-navigation-bar a {
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.top-navigation-bar a:hover {
+	background-color: #e0e0e0;
+	color: #333333;
+}
+
+.content-and-information {
+	background-color: white;
+	border-radius: 4px;
+	padding: 10px;
+	border: 7px solid white;
+}

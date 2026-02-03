@@ -1,0 +1,88 @@
+html {
+	
+	background-color: #e0e0e0;
+	
+	
+	/*
+	background-image: url('bg_main.png');
+	*/
+}
+
+.top-navigation-bar {
+	background-color: #333333;
+    display: flex;
+    justify-content: center;
+	
+	position: absolute; /* OPTIONAL: Change this from absolute to fixed to make navbar always visible when scrolling. */
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.top-navigation-bar a {
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.top-navigation-bar a:hover {
+	background-color: #e0e0e0;
+	color: #333333;
+}
+
+.top-intro-section {
+	background-color: white;
+	text-align: center;
+	border-radius: 4px;
+	padding: 1px;
+}
+
+.github-invertocat_white_clearspace-logo {
+	width: 40px;
+	height: 40px;
+}
+
+.github-lockup_white_clearspace-logo {
+	width: auto;
+	height: 40px;
+}
+
+.github-colors {
+	background-color: black;
+	color: white;
+	border-radius: 4px;
+	padding: 4px;
+	
+	/* Forces the logo to be aligned vertically */
+	display: inline-flex;
+}
+
+.github-colors a:link {
+	color: white;
+}
+
+.github-colors a:hover {
+	/* The exact default color of unvisited blue URLs is #0000EE */
+	/*
+	Temporary experimental blue that is better for the human eye than the default blue above for contrasting against a 100% black background:
+	color: #4477FF;
+	*/
+	
+	color: gray;
+}
+
+.github-colors a:visited {
+	/* The exact default color of visited purple URLs is #551A8B */
+	color: #AA1ABB;
+}
+
+.content-and-information {
+	background-color: white;
+	border-radius: 4px;
+	padding: 10px;
+	border: 7px solid white;
+}
