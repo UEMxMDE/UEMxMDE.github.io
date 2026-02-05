@@ -22,6 +22,10 @@ html {
 	background-color: dodgerblue;
 }
 
+.different-sidebar-background-color {
+	background-color: dimgray;
+}
+
 footer {
 	text-align: center;
 	color: white;
